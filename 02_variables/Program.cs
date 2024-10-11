@@ -94,14 +94,14 @@ namespace _02_variables
             //Console.WriteLine("**** CSharp Hava Yolları Yolcu Bilgisi ****");
             //Console.WriteLine();
 
-            //string passangerName, passangerSurname, passangerDistrict, passangerCity, passangerAge, passangerIDNumber;
+            //string passangerName, passangerSurname, passangerDistrict, passangerCity, passangerAge, passangerIDNumber;    // strin türünde değişken tanımladım
 
             //Console.Write("Yolcu Adı: ");
             //passangerName = Console.ReadLine();     //passanger değişkeninin girdiğim değeri üzerine yazacak,
 
             //Console.Write("Yolcu Soyadı: ");
             //passangerSurname = Console.ReadLine();
-            //Console.WriteLine();
+            //Console.WriteLine();          // 1 satır boşluk bırakmak için yazdım
 
             //Console.Write("ilçe: ");
             //passangerDistrict = Console.ReadLine();
@@ -109,7 +109,7 @@ namespace _02_variables
             //Console.Write("Şehir: ");
             //passangerCity = Console.ReadLine();
 
-            //Console.Write("Yolcu yaş: ");
+            //Console.Write("Yolcu yaş: ");             // SONRA BU GİRDİLERİN TAMAMINA KOŞULLAR KOYMAM GEREKECEK SADECE SAYI VEUA SADECE STRING İFADE KULLAN GİBİ!!
             //passangerAge = Console.ReadLine();
 
             //Console.Write("Yolcu ID: ");
@@ -118,8 +118,9 @@ namespace _02_variables
 
 
             //Console.WriteLine("-------------");
-            //Console.WriteLine("Yolcu: " + passangerName + " " + passangerSurname + " " + passangerAge + " " + passangerDistrict + " " + passangerIDNumber + " " + passangerCity);
-
+            //Console.WriteLine("Yolcu: " + passangerName + " " + passangerSurname + 
+            //    " yolcunun bilgileri " + " yaş: " + passangerAge + " " + passangerDistrict + " " + passangerIDNumber + " " + passangerCity);
+            
 
 
 
