@@ -120,7 +120,7 @@ namespace _02_variables
             //Console.WriteLine("-------------");
             //Console.WriteLine("Yolcu: " + passangerName + " " + passangerSurname + 
             //    " yolcunun bilgileri " + " yaş: " + passangerAge + " " + passangerDistrict + " " + passangerIDNumber + " " + passangerCity);
-            
+
 
 
 
@@ -129,6 +129,50 @@ namespace _02_variables
 
             #region Klavyeden veri girişleri INT DEĞİŞKENLER ve DÖNÜŞÜMLER!!
 
+            //int shoesPrice, computerPrice, watchPrice, chairPrice;
+
+            //shoesPrice = 1000;
+            //computerPrice = 35000;
+            //watchPrice = 600;
+            //chairPrice = 5000;
+
+            //int shoesCount, computerCount, watchCount, chairCount;
+
+            //Console.Write("Lütfen aldığıızn aykkabı sayısını giriniz: ");
+            //shoesCount = int.Parse(Console.ReadLine());     // dönüştürme yapıyorum
+
+            //Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz;");
+            //computerCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığıızn saat sayısını giriniz: ");
+            //watchCount = int.Parse(Console.ReadLine());     // dönüştürme yapıyorum
+
+            //Console.Write("Lütfen aldığınız sandalye sayısını giriniz;");
+            //chairCount = int.Parse(Console.ReadLine());
+
+            //int totalPrice = shoesPrice * shoesCount + computerPrice * computerCount + watchPrice * watchCount + chairPrice * chairCount;
+            //Console.WriteLine("toplam ödenecek tutar: " + totalPrice);
+
+            #endregion
+
+            #region KLAVYEDEN ONDALIKLI SAYI GİRİŞİ İŞLEMLERİ
+
+            double exam1, exam2, exam3, result;
+
+            Console.Write("Lütfen 1.sınav notunu giriniz: ");
+            exam1 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+
+            Console.Write("Lütfen 2.sınav notunu giriniz: ");
+            exam2 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+
+            Console.Write("Lütfen 3.sınav notunu giriniz: ");
+            exam3 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+
+            result = (exam1 + exam2 + exam3) / 3;
+
+            Console.WriteLine();
+            Console.WriteLine("sınav ortalamanız: " + result);
+            
 
             #endregion
 
