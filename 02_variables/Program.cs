@@ -157,25 +157,33 @@ namespace _02_variables
 
             #region KLAVYEDEN ONDALIKLI SAYI GİRİŞİ İŞLEMLERİ
 
-            double exam1, exam2, exam3, result;
+            //double exam1, exam2, exam3, result;
 
-            Console.Write("Lütfen 1.sınav notunu giriniz: ");
-            exam1 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+            //Console.Write("Lütfen 1.sınav notunu giriniz: ");
+            //exam1 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
 
-            Console.Write("Lütfen 2.sınav notunu giriniz: ");
-            exam2 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+            //Console.Write("Lütfen 2.sınav notunu giriniz: ");
+            //exam2 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
 
-            Console.Write("Lütfen 3.sınav notunu giriniz: ");
-            exam3 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
+            //Console.Write("Lütfen 3.sınav notunu giriniz: ");
+            //exam3 = double.Parse(Console.ReadLine());   // girilen değeri double değişken türüne çeviriyorum ve sonrasında atamasını yapıyorum!!!
 
-            result = (exam1 + exam2 + exam3) / 3;
+            //result = (exam1 + exam2 + exam3) / 3;
 
-            Console.WriteLine();
-            Console.WriteLine("sınav ortalamanız: " + result);
-            
+            //Console.WriteLine();
+            //Console.WriteLine("sınav ortalamanız: " + result);
+
 
             #endregion
 
+            #region KLAVYEDEN KARAKTER GİRİŞLERİ
+            char gender;
+            Console.Write("Cinsiyet seçiniz: ");
+            gender = char.Parse(Console.ReadLine());
+
+            Console.WriteLine("seçtiğiniz Cinsiyet: " + gender);
+
+            #endregion
             Console.Read();
 
         }
