@@ -183,6 +183,8 @@ namespace _02_variables
 
             Console.WriteLine("seçtiğiniz Cinsiyet: " + gender);
 
+            Console.WriteLine("2. ders bitti 12.10.2024 //  saat:21:30 ");
+
             #endregion
             Console.Read();  
 
