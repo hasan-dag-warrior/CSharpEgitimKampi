@@ -345,7 +345,7 @@ namespace _03_MakingDecision
             //    default: Console.Write("hatalu veri giriişi yaptın!!!"); break;
             //}
 
-            // switch case hesap makinası
+            // switch case hesap makinası UYGULAMA!!
 
             int number1, number2, result;       // değikenleri tanımladım!
             char symbol;
