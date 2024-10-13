@@ -178,6 +178,11 @@ namespace _03_MakingDecision
 
             //}
 
+
+            #endregion
+
+            #region CHAR DEĞİŞKENLER İLE UYGULAMALAR
+
             //// EXAMPLE 13 
             //// g veya G yazılınca galatasaray f veya F yazınca fenerbahçe yazdır
 
@@ -203,10 +208,25 @@ namespace _03_MakingDecision
             //    Console.WriteLine("çok farklı bir değer girdin sakin ol ve tekrar dene!");
 
             //}
+            #endregion
+            #region ÖRNEK PROJE UYGULAMASI
 
+            // EXAMPLE 14 - ABOUT RESTAURANT MENU
 
+            Console.WriteLine("****** C# Eğitim kampı Restoran ******");
+            Console.WriteLine();
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("1- Ana yemekler; ");
+            Console.WriteLine("2- Çorbalar; ");
+            Console.WriteLine("3- Pizzalar; ");
+            Console.WriteLine("4- içecekler; ");
+            Console.WriteLine("5- TATLILAR;) ");
+
+            string menuItem;
 
             #endregion
+
+
             Console.Read();         // I wrote it so that the terminal window closes immediately.
 
 
