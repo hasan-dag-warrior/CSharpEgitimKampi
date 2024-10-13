@@ -213,16 +213,177 @@ namespace _03_MakingDecision
 
             // EXAMPLE 14 - ABOUT RESTAURANT MENU
 
-            Console.WriteLine("****** C# Eğitim kampı Restoran ******");
-            Console.WriteLine();
-            Console.WriteLine("-----------------------------------------");
-            Console.WriteLine("1- Ana yemekler; ");
-            Console.WriteLine("2- Çorbalar; ");
-            Console.WriteLine("3- Pizzalar; ");
-            Console.WriteLine("4- içecekler; ");
-            Console.WriteLine("5- TATLILAR;) ");
+            //Console.WriteLine("****** C# Eğitim kampı Restoran ******");
+            //Console.WriteLine();
+            //Console.WriteLine("-----------------------------------------");
+            //Console.WriteLine("1- Ana yemekler; ");
+            //Console.WriteLine("2- Çorbalar; ");
+            //Console.WriteLine("3- Kebaplar; ");
+            //Console.WriteLine("4- içecekler; ");
+            //Console.WriteLine("5- TATLILAR;) ");
+            //Console.WriteLine("-----------------------------------------");
+            //Console.WriteLine();
 
-            string menuItem;
+            //string menuItem;
+            //Console.Write("Detayını görmek istediğiniz menü seçimi:");
+            //menuItem = Console.ReadLine();
+
+            //if (menuItem == "1")
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("------- Ana yemekler -------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Soslu Tavuk");
+            //    Console.WriteLine("2- Kızartma tabağı");
+            //    Console.WriteLine("3- Kuru fasulye Pilav");
+            //    Console.WriteLine("4- Fırında Somon");
+            //    Console.WriteLine("5- Patlıcan Musakka");
+            //    Console.WriteLine("------- Ana yemekler -------");
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //if (menuItem == "2")
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("------- Çorbalar -------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Mercimek");
+            //    Console.WriteLine("2- Ezo gelin");
+            //    Console.WriteLine("3- Kelle Paça");
+            //    Console.WriteLine("4- Domates");
+            //    Console.WriteLine("5- Tarhana");
+            //    Console.WriteLine("------- Çorbalar -------");
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //if (menuItem == "3")
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("------- Kebaplar -------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Tavuk");
+            //    Console.WriteLine("2- Adana");
+            //    Console.WriteLine("3- Urfa");
+            //    Console.WriteLine("4- İskender");
+            //    Console.WriteLine("5- İnegöl Köfte");
+            //    Console.WriteLine("------- Kebaplar -------");
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //if (menuItem == "4")
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("------- İçecekler -------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Kola");
+            //    Console.WriteLine("2- Limonata");
+            //    Console.WriteLine("3- Ayran");
+            //    Console.WriteLine("4- Su");
+            //    Console.WriteLine("5- Meyve suyu");
+            //    Console.WriteLine("------- İçecekler -------");
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //if (menuItem == "5")
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("------- Tatlılar -------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Triliçe");
+            //    Console.WriteLine("2- Kazandibi");
+            //    Console.WriteLine("3- Sütlaç");
+            //    Console.WriteLine("4- İrmik helvası");
+            //    Console.WriteLine("5- Baklava");
+            //    Console.WriteLine("------- Tatlılar -------");
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("lütfen 1 ile 5 arasında bir seçim yapınız!");
+
+
+            //}
+
+
+            #endregion
+
+            #region  SWITCH - CASE
+
+            //Console.Write("Lütfen ay girişi yapınız: ");
+            //int montNumber = int.Parse(Console.ReadLine());
+
+            //switch (montNumber)
+            //{
+            //    case 1: Console.Write("OCAK"); break;
+            //    case 2: Console.Write("ŞUBAT"); break;
+            //    case 3: Console.Write("MAMRT"); break;
+            //    case 4: Console.Write("NİSAN"); break;
+            //    case 5: Console.Write("MAYIS"); break;
+            //    case 6: Console.Write("HAZİRAN"); break;
+            //    case 7: Console.Write("TEMMUZ"); break;
+            //    case 8: Console.Write("AĞUSTOS"); break;
+            //    case 9: Console.Write("EYLÜL"); break;
+            //    case 10: Console.Write("EKİM"); break;
+            //    case 11: Console.Write("KASIM"); break;
+            //    case 12: Console.Write("ARALIK"); break;
+            //    default: Console.Write("hatalu veri giriişi yaptın!!!"); break;
+            //}
+
+            // switch case hesap makinası
+
+            int number1, number2, result;       // değikenleri tanımladım!
+            char symbol;
+
+            Console.Write("1. sayıyı giriniz: ");       // kullanıcı için not yazdım
+            number1 = int.Parse(Console.ReadLine());        // kullanıcının girdiği değeri int türüne çevirdim ve number1 değişkenine atadım!
+
+
+            Console.Write("2. sayıyı giriniz: ");
+            number2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Lütfen yapmak istediğiniz işlemi seçiniz: ");
+            symbol = char.Parse(Console.ReadLine());
+
+
+            switch (symbol)
+            {
+                case '+':
+                    result = number1 + number2;
+                    Console.WriteLine("toplama işlem sonucu: " + result); break;
+
+                case '-':
+                    result = number1 - number2;
+                    Console.WriteLine("çıkarma işlem sonucu: " + result); break;
+
+                case '*':
+                    result = number1 * number2;
+                    Console.WriteLine("çarpma işlem sonucu: " + result); break;
+
+                case '/':
+                    result = number1 / number2;
+                    Console.WriteLine("bölme işlem sonucu: " + result); break;
+
+                default: Console.WriteLine("hatalı bir işlem yaptın!!"); break;
+
+            }
+
+
 
             #endregion
 
