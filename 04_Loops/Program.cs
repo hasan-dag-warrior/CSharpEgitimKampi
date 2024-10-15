@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,19 +51,138 @@ namespace _04_Loops
             //    Console.WriteLine("bu değeri girdin: " + finishValue);
             //}
 
+            #endregion
+
+            #region For Döngüsü ile Karar Yapıları
+            ////example5
+            //for (int i = 0; i <= 100; i++)
+            //{
+            //    if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+
+            ////example 6
+            //int totalValue = 0;
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //    totalValue += i;        // total value değerini for döngüsü ile kontrol ettim!!
+
+            //}
+
+            //Console.WriteLine("toplam değer::: " + totalValue);
+
+            //// example 7
+            //int totalValue = 0;
+
+            //for (int i = 1; i < 20; i++)
+            //{
+            //    if (i % 2 == 0)     // i eğer 2'ye tam bölünüyorsa
+            //    {
+            //        totalValue += i;    // total value değerine i ekle dedim
+            //        Console.WriteLine(i);
+
+            //    }
+            //}
+            //Console.WriteLine("---***---");
+            //Console.WriteLine(totalValue);
+
+
+            // example 8
+
+            //int count = 0;
+            //for (int i = 1; i <= 50; i++)
+            //{
+            //    if (i % 7 == 0)
+            //    {
+            //        count++;
+
+            //        Console.WriteLine("sayaç: " + count);
+            //        Console.WriteLine("7'ye bölünen sayılar:: " + i);
+
+            //    }
+            //}
+
+            //// example 9!! -  bir bakteri türü her saatin sonund akendini ikiye bölerek çoğaltmaktadır
+
+            //int bacterium = 1;
+
+            //for(int i = 1; i<= 24; i++)     // i değeri ile 24 saatlik periyodu kontrol ediyorum
+            //{
+            //    bacterium *= 2;
+            //    Console.WriteLine(i + ". saat sonunda: " + bacterium);
+
+            //}
+
 
 
             #endregion
 
-            #region For Döngüsü ile Karar Yapıları
+            #region WHILE LOOP
 
-            for (int i = 0; i <= 100; i++)
-            {
-                if (i % 5 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            //// example 5
+            //int i = 1;
+
+            //while (i <= 10)     // i küçük eşit 10 olduğu sürece aşağıdaki işlemi yap
+            //{
+            //    Console.WriteLine("selam dostlar!! ");
+            //    i++;
+
+            //}
+
+            //// example 6
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    if (i % 3 ==0)
+            //    {
+            //        Console.WriteLine(i + " 3 e bölümü sıfır olan sayıdır");
+            //    }
+            //    i++;
+
+            //}
+
+            //// example 7 
+            //int i = 1;
+            //int sum = 0;
+
+            //while (i<=10)
+            //{
+            //    sum += i;
+            //    i++;
+            //}
+
+            //Console.WriteLine(sum);
+
+
+
+
+            #endregion
+
+            #region  Örnek Sınav sorusu
+
+            // klavyeden girilen 3 basamaklı sayının basamakları toplamını
+            //hesaplayan kodu yazınız.
+
+            // 456 --> 4+5+6 yapacağız
+
+            //Console.Write("3 basmaklı bir sayı gir Gral: ");    // kullanıcıdan giriş istedim
+            //int number = int.Parse(Console.ReadLine());
+            //int ones, tens, hundreds;
+            //int sum;
+
+            //ones = number % 10;
+            //hundreds = number / 100;
+            //tens = (number % 100) / 10;
+
+            //sum = ones + tens + hundreds;
+
+            //Console.WriteLine(sum);
+
 
             #endregion
 
