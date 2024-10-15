@@ -18,15 +18,15 @@ namespace _04_Loops
             // y: bitiş
             // z: artış azalış
 
-            ////example1 
+            ////example1  bir şeyi 5 defa ekrana yazdır yani tekrarlı iş yapma
             //int i;
             //for (i = 1; i <= 5; i++) 
             //{
-            //    Console.WriteLine("C# eğitim kampı");
+            //    Console.WriteLine("C# eğitim kampı ders4: döngüler");
             //}
 
             ////example2
-            //for (int i =1; i<=20; i++)
+            //for (int i =1; i<=20; i++)    // i değişkenini for parantezi içinde de tanımlayabilirim
             //{
             //    Console.WriteLine(i);
 
@@ -34,10 +34,34 @@ namespace _04_Loops
 
             //example3
 
-            for (int i=3; i<=50; i+=3)
-            {
-                Console.WriteLine(i);
+            //for (int i=3; i<=50; i+=3)
+            //{
+            //    Console.WriteLine(i);
 
+            //}
+
+            // EXAMPLE4 
+
+            //Console.Write("lütfen bitiş değerini yazınız:");
+            //int finishValue= int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= finishValue; i++)
+            //{
+            //    Console.WriteLine("bu değeri girdin: " + finishValue);
+            //}
+
+
+
+            #endregion
+
+            #region For Döngüsü ile Karar Yapıları
+
+            for (int i = 0; i <= 100; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
 
             #endregion
