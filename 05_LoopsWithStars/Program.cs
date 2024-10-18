@@ -53,6 +53,8 @@ namespace _05_LoopsWithStars
             //    Console.WriteLine();
             //}
 
+            #endregion
+
             #region dik ve ters dik üçgen alt alta
 
 
@@ -128,33 +130,48 @@ namespace _05_LoopsWithStars
 
             #region  PİRAMİT
 
-            int n = 10;      // yarı yükseklik değeri için tanımladım
+            //int n = 10;      // yarı yükseklik değeri için tanımladım
 
-            for (int i = 1; i <= n; i++)
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = n - i; j > 0; j--)     // sol taraftan boşluk bırakıyor
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    
+
+            //    for (int k = 1; k <= 2 * i - 1; k++)    // yazdırılacak yıldız sayısını belirliyor!
+            //    {
+            //        Console.Write('*');
+            //    }
+
+            //    Console.WriteLine();
+
+            //}
+
+
+            #endregion
+
+            #region TERS PİRAMİT
+
+            int n = 5;
+            for (int i = n; i>= 1; i--)
             {
-                for (int j = n - i; j > 0; j--)     // sol taraftan boşluk bırakıyor
+                for (int j = n-i; j>0; j--)
                 {
                     Console.Write(" ");
                 }
-                //n = n - 1;
 
-                for (int k = 1; k <= 2 * i - 1; k++)    // yazdırılacak yıldız sayısını belirliyor!
+                for (int k = 1; k<=2*i-1; k++)
                 {
-                    Console.Write('*');
+                    Console.Write("*");
                 }
-
                 Console.WriteLine();
-
             }
-
-
-
-
+            
 
             #endregion
 
-
-            #endregion
 
             Console.Read();
         }
