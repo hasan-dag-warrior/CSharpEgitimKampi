@@ -53,7 +53,7 @@ namespace _05_LoopsWithStars
             //    Console.WriteLine();
             //}
 
-            // yıldızlarla elmas şekli oluşturma
+            // yıldızlarla elmas şekli oluşturmaa
 
 
 
