@@ -90,9 +90,6 @@ namespace _07_ForeachLoops
 
 
 
-
-
-
             #endregion
 
             #region ÖRNEK SINAV SİSTEMİ UYGULAMASI
@@ -166,6 +163,7 @@ namespace _07_ForeachLoops
 
 
             #endregion
+
 
             Console.Read();
         }
