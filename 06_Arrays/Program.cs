@@ -180,36 +180,38 @@ namespace _06_Arrays
             //Console.WriteLine(sum);
 
             // example 33
-            int[] numbers = { 21, 32, 13, 84, 55, 06, 47, 48, 69, 60 };
+            //int[] numbers = { 21, 32, 13, 84, 55, 06, 47, 48, 69, 60 };
 
-            Console.WriteLine("Çift sayılar: ");
+            //Console.WriteLine("Çift sayılar: ");
 
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] %2 == 0)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] %2 == 0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
 
-            }
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("Tek sayılar: ");
+            //Console.WriteLine();
+            //Console.WriteLine("Tek sayılar: ");
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] % 2 == 1)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] % 2 == 1)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
 
-            }
+            //}
 
 
 
 
 
             #endregion
+
+
 
 
             Console.Read();
