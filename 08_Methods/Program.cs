@@ -15,7 +15,7 @@ namespace _08_Methods
 
             // ()
             // geriye değer döndürmeyen metotlar --> void metotlar
-            // Customer --> Listele, ekle, sil, güncelle gibi veri tabanı işlemleri
+            // Customer --> Listele, ekle, sil, güncelle gibi veri tabanı işlemlerinde çok ık kullanacağız
 
             //// metot tanımlama!!
             //void CustomerList()     // geriye değer döndürmeyen bir metot tanımladım
@@ -25,6 +25,8 @@ namespace _08_Methods
             //    Console.WriteLine("Faruk Çınar");
             //    Console.WriteLine("şakşakçı");
             //    Console.WriteLine("sezgin kaplan");
+            //    Console.WriteLine("Batuhan lekesizer");
+
             //}
 
             //CustomerList();         // tanımladığım metodu burada çağırıyorum private bir metot
